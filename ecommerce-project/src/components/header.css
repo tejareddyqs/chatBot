@@ -41,6 +41,8 @@
 .header .logo {
   height: 26px;
   margin-top: 1px;
+  color: white;
+  font-size: larger;
 }
 
 .header .mobile-logo {

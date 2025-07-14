@@ -6,13 +6,13 @@ export function HomePage(){
   const[products,setProducts]=useState([])
   const[cart,setCart]=useState([])
   useEffect(()=>{
-    axios.get('http://localhost:3000/api/products')
+    axios.get('/api/products')
   .then((response)=>{
    setProducts(response.data);
    })
   },[]);
   useEffect(()=>{
-    axios.get('http://localhost:3000/api/cart-Items')
+    axios.get('/api/cart-Items')
   .then((response)=>{
    setCart(response.data);
    })

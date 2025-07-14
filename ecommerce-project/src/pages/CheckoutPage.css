@@ -209,3 +209,13 @@
   margin-top: 20px;
   margin-bottom: 19px;
 }
+.log{
+  background-color: black;
+  font-size: larger;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  margin-right: 95px;
+  margin-left: 20px;
+
+}

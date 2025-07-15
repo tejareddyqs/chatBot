@@ -18,7 +18,7 @@ function App() {
     <Routes>  
       <Route index element={<HomePage cart={cart}/>} />
       <Route path="checkout" element={<CheckoutPage cart={cart} />} />
-      <Route path='Orders' element={<OrdersPage/>}/>
+      <Route path='Orders' element={<OrdersPage cart={cart}/>}/>
     </Routes>
   );
 }
